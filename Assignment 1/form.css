@@ -1,4 +1,4 @@
-#head {
+.head {
   background: #333;
   color: #fff;
   text-align: center;
@@ -14,6 +14,10 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+nav h1 {
+  word-spacing: 3px;
 }
 
 body {
