@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Africa Courses</title>
+    <style>
+      /* General styles */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        padding-top: 20px;
+      }
+
+      /* Header and Navigation styles */
+      header {
+        background-color: #2c3e50;
+        padding: 10px 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+
+      nav a:hover {
+        background-color: #34495e;
+      }
+
+      /* Table styles */
+      table {
+        width: 50%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 15px;
+        text-align: left;
+        border: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #2c3e50;
+        color: white;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      /* List styles */
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      ul li {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      ul li:last-child {
+        border-bottom: none;
+      }
+
+      /* Responsive design */
+      @media (max-width: 768px) {
+        table {
+          width: 100%;
+        }
+
+        th,
+        td {
+          padding: 10px;
+        }
+
+        nav {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        nav a {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="table.html">AltSchool Courses</a>
+      </nav>
+    </header>
+    <h1>AltSchool Africa Schools and Courses</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>School</th>
+          <th>Courses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>School of Engineering</td>
+          <td>
+            <ul>
+              <li>Frontend Engineering</li>
+              <li>Backend Engineering</li>
+              <li>Cloud Engineering</li>
+              <li>Cybersecurity</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>School of Product</td>
+          <td>
+            <ul>
+              <li>Product Design</li>
+              <li>Product Marketing</li>
+              <li>Product Management</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>School of Data</td>
+          <td>
+            <ul>
+              <li>Data Analysis</li>
+              <li>Data Science</li>
+              <li>Data Engineering</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
